@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="pagina/styles.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    a {
+    font-size: xx-small;
+}
+    p {
+    font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+}
+    p {
+    font-family: Gotham, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+    </style>
+<title>El Taller Navideño</title>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('pagina/sustituto1.jpg','pagina/sustituto2.jpg','pagina/sustituto3.jpg','pagina/sustituto4.jpg','pagina/sustituto5.jpg')">
+    <header>
+        <h1>El Taller Navideño</h1>
+        <p>Descubre nuestros productos hechos en Tlalpujahua</p>
+</header>
+
+<section>
+        <h2>Nuestros Productos:</h2>
+        <table>
+            <tr>
+                <td><p><span style="text-align: left"><strong style="font-size: 36px">D</strong></span><strong style="font-size: 36px">ecoracion para mesa</strong></p>
+                  <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','pagina/sustituto1.jpg',1)"><img src="pagina/producto1.jpg" alt="" width="569" height="327" id="Image10"></a></p>
+                  <p><u>$50.00</u></p>
+                </td>
+                <!-- Repite este bloque para los demás productos -->
+            </tr>
+            <tr>
+                <td><p><strong style="font-size: 36px">Esfera tradicional</strong></p>
+                  <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','pagina/sustituto2.jpg',1)"><img src="pagina/producto2.jpg" alt="" width="391" height="361" id="Image8"></a></p>
+                    <p><u>$40.00</u></p>
+              </td>
+            </tr>
+            <tr>
+                <td><p style="font-family: Cursive; font-size: 36px;"><strong>Esfera navideña</strong></p>
+                    <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','pagina/sustituto3.jpg',1)"><img src="pagina/producto3.jpg" alt="" width="519" height="272" id="Image7"></a></p>
+                    <p><u>$60.00</u></p>
+                    <p>&nbsp;</p>
+              </td>
+            </tr>
+            <tr>
+                <td><p><strong style="font-size: 36px">Esfera normal</strong></p>
+                  <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','pagina/sustituto4.jpg',1)"><img src="pagina/producto4.jpg" alt="" width="513" height="293" id="Image6"></a></p>
+                    <p><u>$45.00</u></p>
+              </td>
+            </tr>
+            <tr>
+                <td><p><strong style="font-size: 36px">Esfera especial</strong></p>
+                  <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','pagina/sustituto5.jpg',1)"><img src="pagina/producto5.jpg" alt="" width="183" height="275" id="Image5"></a></p>
+                    <p><u>$55.00</u></p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+              </td>
+            </tr>
+        </table>
+</section>
+<footer>
+  <p>TIENDA DE NAVIDAD TLALPUJAHUA</p>
+</footer>
+</body>
+</html>
